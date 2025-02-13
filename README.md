@@ -25,20 +25,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## File Structure
-```
-option-pricing-app/
-│── app.py                     # Main Streamlit app
-│── pricing/
-│   ├── black_scholes.py       # Black-Scholes pricing model
-│   ├── binomial_tree.py       # Binomial Tree pricing model
-│── greeks.py                  # Greeks calculation
-│── data_fetch.py              # Fetches live stock data
-│── implied_volatility.py      # Implied volatility calculation
-│── requirements.txt           # Python dependencies
-│── README.md                  # Project documentation
-```
-
 ## Dependencies
 - `streamlit`
 - `numpy`
